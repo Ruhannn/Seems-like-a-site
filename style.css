@@ -53,6 +53,8 @@ font-family: 'Inter', sans-serif;
    
 }
 
+
+
 .paga{
   font-size: 25px;
   margin-top: 15px;
@@ -77,6 +79,36 @@ font-family: 'Inter', sans-serif;
 .btn:hover{
    background-color:#628ce3 ;
 }
+
+.aboutusefull{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 10px;
+
+}
+
+
+.abouttitle{
+  font-size: 40px;
+text-align: center;
+padding-top: 20px;
+color: white;
+
+}
+.info{
+color: white;
+margin: 10px;
+font-size: 30PX;
+font-family: 'Inter', sans-serif;
+}
+
+.image1:hover{
+  opacity: 0.2;
+}
+
+
 
 
 
