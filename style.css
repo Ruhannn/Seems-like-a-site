@@ -150,3 +150,53 @@ padding: 10px;
   justify-content: space-around;
   padding: 20px;
 }
+
+
+.rrt {
+  height: 180px;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  flex-basis: 15%;
+}
+
+.section h3 {
+  font-size: 27px;
+}
+
+.section p,
+.section ul {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.section ul li {
+  list-style: none;
+}
+
+.centered-hr {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-hr hr {
+  height: 1px;
+  background-color: #ffffff;
+  border: none;
+  margin: 10px 0;
+  width: 1000px;
+}
+
+h4{
+  text-align: center;
+  color: white;
+}
