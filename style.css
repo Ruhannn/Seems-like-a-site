@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Fira+Code:wght@300&family=JetBrains+Mono:wght@300&display=swap');
+*{
+    font-family:'JetBrains Mono', monospace ;
+}
+.name1{ 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.homes li{
+  padding: 20px;
+  align-items: right;
+
+}
+.homes ul{
+    display: flex;
+  list-style: none;
+ 
+}
+
+.FIRST{
+    background-color: #7aa2f7;
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 7px;
+    
+}
+a{ 
+    color: white;
+ } 
+
+
+
