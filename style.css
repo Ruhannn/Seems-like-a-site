@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Fira+Code:wght@300&family=JetBrains+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Fira+Code:wght@300&family=Inter:wght@300&family=JetBrains+Mono:wght@300&display=swap');
 *{
-    font-family:'JetBrains Mono', monospace ;
+  padding: 0;
+ margin: 0;
+
 }
-.name1{ 
-    margin-top: 20px;
-    margin-left: 20px;
+body{
+  background: rgb(82,78,80);
+background: linear-gradient(291deg, rgba(82,78,80,1) 0%, rgba(26,27,38,1) 35%);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
 }
+
 
 .homes li{
   padding: 20px;
@@ -15,6 +22,7 @@
 .homes ul{
     display: flex;
   list-style: none;
+  
  
 }
 
@@ -26,12 +34,51 @@
     display: flex;
     align-items: center;
     justify-content:space-around;
-    border-radius: 7px;
+    font-family:'JetBrains Mono', monospace ;
+
+  
     
 }
 a{ 
     color: white;
  } 
+a:hover{
+  color: rgb(79, 79, 176);
+}
+.name2{
+
+  color: white;
+font-size: 55px;
+font-family: 'Inter', sans-serif;
+   
+}
+
+.paga{
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+.bannerboro{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.btn{
+  background-color: #7aa2f7;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+.btn:hover{
+   background-color:#628ce3 ;
+}
+
+
 
 
 
